@@ -23,6 +23,6 @@ public final class BankTransactionsUsingObjectIsolation
         isolated(src, dst, () -> {
             src.performTransfer(amount, dst);
         });
-        throw new UnsupportedOperationException();
+        // throw new UnsupportedOperationException();
     }
 }
